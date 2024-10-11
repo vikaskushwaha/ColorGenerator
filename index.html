@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>RandomColorGenerator</title>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="inner-container">
+            <h1 style="color: lightblue;">Random Color Genrator</h1>
+            <div class="color-code" style="background-color: white;">
+                <h2 class="hexcode" style="color: white;"></h2>
+                <h2 class="rgb" style="color: white;"></h2>
+            </div>
+            <div class="btns">
+
+                <button onclick="generatorColor()">GenerateColor</button>
+                <button onclick="CopyCode('hexcode')">CopyHex</button>
+                <br />
+                <button onclick="CopyCode('rgb')">CopyRgb</button>
+                <button onclick="darkmode()">DarkMode</button>
+
+            </div>
+            <p class="status"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
